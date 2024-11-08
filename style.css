@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Consolas', sans-serif;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 500px;
+    background-color: rgb(238, 229, 229);
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.container {
+    width: 300px;
+    height: 330px;
+    background-color: rgb(193, 30, 30);
+    border-bottom-left-radius: 50px;
+    color: white;
+    /* background-color: rgb(198, 171, 171); */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.upper-cont{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    position: relative;
+}
+
+.legend-subtitle {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.akshay {
+    height: 300px;
+    width: 220px;
+    right: 0.5px;
+    object-fit: cover;
+}
+
+.char-text{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    gap: 10px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+.svalue {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.slabel {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.achievements {
+    color: #ff4655;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.achievement {
+    display: flex;
+    padding: 5px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgba(206, 179, 181, 0.1);
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: ;
+    height: 40px;
+}
+
+.value {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 12px;
+    opacity: 0.8;
+}
